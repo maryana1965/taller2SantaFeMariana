@@ -1,0 +1,141 @@
+/*
+contiene los  estilos del sistema
+*/
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+body
+{
+	margin: 0px auto;
+	background-color: #E6E6E6;
+
+}
+
+#nav{
+    width: 1024px;
+    margin-bottom: 3px;
+}
+/*menu
+*/
+/*Menu */
+.navbox {
+	position: relative;
+	float: left;
+        margin-top: -80px;
+}
+
+ul.nav {
+	list-style: none;
+	display: block;
+	width: 150px;
+	position: relative;
+	top: 100px;
+	left: 100px;
+	padding: 50px 0 50px 0;
+	background: url(shad2.png) no-repeat;
+	-webkit-background-size: 50% 100%;
+}
+
+li {
+	margin: 48px 0 0 0;
+}
+
+ul.nav li a {
+	-webkit-transition: all 0.3s ease-out;
+	background: #cbcbcb url(border.png) no-repeat;
+	color: #174867;
+	padding: 7px 15px 7px 15px;
+	-webkit-border-top-right-radius: 10px;
+ 	-webkit-border-bottom-right-radius: 10px;
+	width: 90px;
+	display: block;
+	text-decoration: none;
+	-webkit-box-shadow: 10px 10px 10px #888;
+}
+
+ul.nav li a:hover {
+	background: #ebebeb url(border.png) no-repeat;
+	color: #67a5cd;
+	padding: 20px 20px 20px 40px;
+}
+
+/*contenido de la pagina*/
+#contenido
+{
+	width: 1024px;
+	height: 600px;
+	background-color: #FBEFFB;
+	margin: 2px 0 0 0;
+	box-shadow: 0 0  10px;	
+}
+
+/*personalizacion font*/
+.texto
+{
+    float: left;
+    padding-top: 5px;
+    width: 800px;
+    height: 800px;
+}
+h1{
+  font-family: courier, monospace;
+  font-size: 50px;
+  color: #2E2EFE;
+}
+
+h2
+{
+	font-family: courier, monospace;
+	color: #2E2EFE;
+	font-size: 30px
+}
+#buttons{
+    margin-left: 20px;
+   margin-top: 30px;
+}
+/*lateral de la pagina*/
+
+#lateral
+{        
+        margin-top: -450px ;
+	width: 200px ;
+	height: 600px;
+	background-color: #BDBDBD;
+	float: right;
+	box-shadow: 10px 10px 10px;
+        font-style:italic;
+        font-weight:bold;
+        font-size:2em;
+        font-color:#ffffff;
+        font-family:fantasy;      
+}
+/*pie de la pagina*/
+#pie
+{
+	width: 1024px;
+	height: 100px;
+	background-color: #A4A4A4;
+	box-shadow: 0 0  20px;
+	margin: 0 0 0 0;
+	font:  15px/25px Arial, Helvetica; 
+        text-decoration: none; 
+        color: #E6E6E6;
+	
+
+}
+#ptex
+{
+    text-align: center;
+}
+
+#backform{
+    margin-left: 40px;
+}
+/* 
+    Created on : 29/08/2014, 10:11:51 PM
+    Author     : mariana-pc
+*/
+
